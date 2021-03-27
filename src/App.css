@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+:root {
+  --primary-white: #fff;
+  --primary-green: rgb(22, 231, 22);
+  --primary-orange: #f9ab00;
+  --primary-dark: #000;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/**** 1; Navigation *****/
+.site_logo {
+  width: 9rem;
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0px !important;
+  height: 6rem !important;
+}
+
+.navbar-toggler {
+  border: px solid var(--primary-white) !important;
+}
+
+/* nav links */
+nav a.nav-link {
+  letter-spacing: 0.3px;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+.navbar-nav > li > a {
+  color: var(--primary-white) !important;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  border: none;
+}
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a.active {
+  color: var(--primary-green) !important;
+  border-top: 0.18rem solid var(--primary-orange) !important;
+}
+.navbar-nav > li > a:hover {
+  color: var(--primary-green) !important;
+}
+
+/*********************************/
+
+/* later */
+.card-body .card-title,
+.card-body .card-text,
+.card-body a,
+.copyright {
+  color: #fff;
+}
+
+.site_footer {
+  bottom: 0;
+}
